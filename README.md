@@ -26,6 +26,7 @@ install.packages(c(
   "tidyverse",
   "ggridges",
   "ggthemes",
+  "gsheet",
   "rclipboard"
 ))
 ```

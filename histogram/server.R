@@ -3,15 +3,16 @@ library(shiny)
 library(tidyverse)
 library(ggridges)
 library(ggthemes)
+library(gsheet)
+
 source("functions/process_pasted_data.R")
 source("functions/isolate_complete_pairs.R")
 source("functions/jitter_by_percent_min_wn.R")
-
 source("functions/make_url.R") 
 source("functions/parse_url.R") 
 source("functions/add_data_link_to_url.R")
 source("functions/get_data_from_url.R")
-library("gsheet")
+
 
 shinyServer( # Initiate the shiny server
   function(input, output, session) { # Create the function -- added 'session' for URL project 3/22/24
