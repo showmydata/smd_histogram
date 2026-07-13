@@ -25,7 +25,8 @@ install.packages(c(
   "shiny",
   "tidyverse",
   "ggridges",
-  "ggthemes"
+  "ggthemes",
+  "rclipboard"
 ))
 ```
 
